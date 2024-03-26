@@ -2,21 +2,15 @@
 
 A script that can run in the background and listen to hotkeys, then uses a Large Language Model to fix the text. Less than 100 lines of code.
 
-Inspired by this tweet:
-
-[Placeholder Link](https://www.example.com)
 
 > "GPT is surprisingly good at correcting minor typos, so you can write really really fast, ignore mistakes and keep going, and it comes out just fine." - Andrej Karpathy
 
-You'll find a demo and step-by-step code explanations on my YouTube channel:
-
- [![Placeholder Image](https://img.youtube.com/vi/IUTFrexghsQ/hqdefault.jpg)](https://www.example.com)
 
 ## Get Started
 
 ### 1. Set up Ollama
 
-Ollama Installation: [Placeholder Link](https://www.example.com)
+Ollama Installation: [Ollama_Blog](https://github.com/ollama/ollama)
 
 Run `ollama run mistral:7b-instruct-v0.2-q4_K_S`
 
@@ -24,9 +18,9 @@ Mistal 7B Instruct works well for this task, but feel free to try other models, 
 
 ### 2. Install dependencies
 
-- pynput: [Placeholder Link](https://www.example.com)
-- pyperclip: [Placeholder Link](https://www.example.com)
-- httpx: [Placeholder Link](https://www.example.com)
+- pynput: https://pynput.readthedocs.io/en/latest/
+- pyperclip: https://github.com/asweigart/pyperclip
+- httpx: https://github.com/encode/httpx/
 
 ### 3. Run it
 
